@@ -40,10 +40,9 @@ def test_overdraw_checking():
 def test_withdraw_savings():
     account = Account('savings')
     account.deposit(50)
-    account.withdraw(10)
-    assert account.balance == 40
+    account.withdraw(20)
+    assert account.balance == 20
 
 
 def test_whatever():
     pass
-git checkoutgit c
